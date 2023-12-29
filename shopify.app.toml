@@ -2,7 +2,7 @@
 
 name = "validate-total-price"
 client_id = "6b343e767684e5f473df8806412e4439"
-application_url = "https://receivers-office-flower-outlook.trycloudflare.com"
+application_url = "https://encountered-information-advice-receive.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://receivers-office-flower-outlook.trycloudflare.com/auth/callback",
-  "https://receivers-office-flower-outlook.trycloudflare.com/auth/shopify/callback",
-  "https://receivers-office-flower-outlook.trycloudflare.com/api/auth/callback"
+  "https://encountered-information-advice-receive.trycloudflare.com/auth/callback",
+  "https://encountered-information-advice-receive.trycloudflare.com/auth/shopify/callback",
+  "https://encountered-information-advice-receive.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

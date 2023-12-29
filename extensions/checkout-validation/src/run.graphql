@@ -1,7 +1,14 @@
 query RunInput {
-  deliveryCustomization {
-    metafield(namespace: "$app:checkout-validation", key: "function-configuration") {
-      value
+  cart {
+    buyerIdentity {
+      customer {
+        numberOfOrders
+      }
+    }
+    cost {
+      subtotalAmount {
+        amount
+      }
     }
   }
 }
